@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>バイナリエディタ</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" charset="utf-8" src="functional.js"></script>
+</head>
+<body>
+	<div id="binaryEditer">
+		<div id="importExportBox">
+			<img id="importImg" src="img/import.png" alt="インポート" />
+			<img id="exportImg" class="unable" src="img/export.png" alt="エクスポート" />
+			<input id="fileButton" type="file" class="hidden">
+		</div>
+		<div id="editerContainer">
+			<div id="fileName"></div>
+			<div id="editerBox">
+				<div id="editerX"></div>
+				<div id="editerY">
+					<table>
+						<tbody>
+							<tr>
+								<th>uint8</th>
+								<td id="x_uint8"></td>
+							</tr>
+							<tr>
+								<th>bit</th>
+								<td id="x_bit"></td>
+							</tr>
+							<tr>
+								<th>utf8</th>
+								<td id="x_utf8"></td>
+							</tr>
+							<tr>
+								<th>utf16</th>
+								<td id="x_utf16">comming soon...</td>
+							</tr>
+							<tr>
+								<th>sjis</th>
+								<td id="x_sjis">comming soon...</td>
+							</tr>
+							<tr>
+								<th>eucjp</th>
+								<td id="x_eucjp">comming soon...</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div id="loading"></div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" charset="utf-8" src="script.js"></script>
+</body>
+</html>
