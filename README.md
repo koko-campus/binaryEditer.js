@@ -1,2 +1,3 @@
 # binaryEditer.js
-JavaScriptで実装したバイナリエディタ。
+
+JavaScriptで実装したバイナリエディタ。  
